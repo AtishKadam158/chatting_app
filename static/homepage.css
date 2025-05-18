@@ -1,0 +1,39 @@
+/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(158, 158, 160);
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.top-header {
+    background-color: #313436;
+    color: #fffffffe;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #5a9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.top-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.top-header p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #edc5c5;
+    margin-top: 0cm;
+}
+.main-content {
+    background: rgb(232, 236, 238);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: calc(100vh - 150px);
+    color: #313436;
+}
+

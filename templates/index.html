@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flask Chat App - Join</title>
+    <link rel="stylesheet" href="../static/style.css" />
+
+</head>
+<body>
+   <header class="top-header">
+        <h1>Welcome to Flask Chat App</h1>
+        <p>This is a simple real-time chatroom application. Enter your name and the room you'd like to join or create.</p>
+    </header>
+
+    <main class="main-content">
+        <div class="join-container">
+            <h2>Login to chat</h2>
+            <form id="joinForm" action="/chat" method="GET">
+                <label for="username">Enter your username:</label>
+                <input type="text" id="username" name="username" placeholder="Your name" required minlength="2" maxlength="20" />
+                
+                <label for="room">Password:</label>
+                <input type="text" id="room" name="room" placeholder="Room to join or create" required minlength="2" maxlength="20" />
+                
+                <button type="submit">Login</button>
+                <button type="submit">New User</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html> 
